@@ -1,0 +1,189 @@
+html {
+  /* background-color: #90EE90; */
+
+  background-color: #3cd070;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tracks {
+  display: grid;
+	grid-template-columns: repeat(5, 1fr);
+  /* text-align: center; */
+  /* padding: 20px; */
+  /* margin-bottom: 50px; */
+	/* grid-template-columns: repeat(5, 1fr); */
+  /* color:aliceblue; */
+}
+
+.tmp {
+  display: grid;
+	grid-template-columns: repeat(6, 1fr);
+  /* padding: 20px; */
+  /* margin-bottom: 50px; */
+	/* grid-template-columns: repeat(5, 1fr); */
+  /* color:aliceblue; */
+}
+
+@media (max-width: 1500px) {
+  .tmp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tracks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .trackImg {
+    height: 35%;
+  }
+}
+
+.trackImg {
+  height: 60%;
+}
+
+.track {
+  background-color: #30C574;
+}
+
+input{
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom:2px solid #8D94BA;
+  outline: 0;
+  font-size: 1.5rem;
+  color:#282c34;
+  padding: 7px 0;
+  /* background: transparent; */
+  background-color: #30C574;
+  /* padding-top: 20px; */
+  /* padding-right: 20px; */
+  padding-inline: 15px;
+  /* transition: border-color 0.2s; */
+}
+
+h3 {
+  height: 15%;
+  font-weight:700 ;
+  /* margin: 0; */
+  /* padding: 10px; */
+  /* position: relative;
+  left: 25px; */
+  /* display: inline-block; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.recommendedTracks {
+  /* display: grid;
+	grid-template-columns: repeat(3, 2fr);
+  width: 70rem; */
+	/* grid-template-rows: repeat(5, 1fr); */
+  /* grid-column-gap: 10px; */
+  /* grid-row-gap: 10px; */
+  display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
+	align-items: flex-start;
+	justify-content: space-between;
+	/* align-content: space-around; */
+  /* flex-grow: 2; */
+  /* padding: 10rem; */
+  margin: 4rem;
+}
+
+.songTitle {
+  width: 18rem;
+}
+
+.card {
+  /* height: 10rem; */
+  /* width: 50%; */
+  /* padding: 40px; */
+  margin: 20px;
+}
+
+.removeIcon {
+  /* float: right; */
+  position: absolute;
+  /* top: 8px; */
+  left: 130px;
+}
+
+.con {
+  position: relative;
+}
+
+.iconBtn {
+  right: 40%;
+  /* opacity: 0.2; */
+}
+
+.icn {
+  /* opacity: 0.2; */
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+
+.title {
+  /* float: left; */
+  /* text-align:inherit; */
+  margin: 0;
+}
+
+/* .idk {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+} */
+
+/* .idk {
+  display: grid;
+  grid-template-rows: repeat(3, 2fr);
+} */
